@@ -1,0 +1,39 @@
+.mobile img{
+    width: 300px;
+    margin-top: 65px;
+}
+
+.mobile p{
+    margin: 0;
+}
+
+.firstline{
+    font-size: 25px;
+    font-family: 'second';
+    color: #8c705b;
+}
+
+.secondline{
+    font-size: 14px;
+    font-family: 'second';
+    letter-spacing: 2.1px;
+    color: #432622;
+}
+
+.lastline{
+    font-size: 16px;
+    font-family: 'second';
+    letter-spacing: .2px;
+    color: #232323;
+}
+
+.m-text{
+    width: 187px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[data-theme="dark"] .lastline{
+    color: #555555;
+    transition: 0.3s;
+}

@@ -1,0 +1,273 @@
+footer{
+    float: left;
+    background: #F2F8FC;
+    width: 100%;
+    height: 610px;
+}
+
+.about{
+    font-family: 'Main';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    width: 406px;
+    color: #22262A;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.ft-section1{
+    width: 410px;
+    float: left;
+    margin-top: 115px;
+}
+
+.ft-logo{
+    float: none;
+}
+
+.ft-logo:hover{
+    border: none;
+    padding-bottom: 0;
+    cursor: url(../icons/cursor.png), default;
+}
+
+[data-theme="dark"] .ft-logo:hover{
+    border: none;
+    padding-bottom: 0;
+    cursor: url(../icons/cursor.png), default;
+}
+
+.target{
+    width: 15px;
+    height: 15px;
+    background: url(../icons/target.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.location{
+    font-family: 'Main';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.addres{
+    margin-top: 45px;
+}
+
+.contact{
+    margin-top: 20px;
+    width: 240px;
+}
+
+.contact p{
+    font-family: 'Main';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.mail{
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+}
+
+.social{
+    width: 150px;
+    margin-top: 15px;
+}
+
+.social img{
+    height: 16px;
+    margin-right: 18px;
+    cursor: url(../icons/cursor-pointer.png), pointer;
+}
+
+.ft-section2{
+    float: right;
+    width: 535px;
+    margin-top: 115px;
+}
+
+.subscribe p{
+    text-transform: uppercase;
+    font-family: 'Main';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+    margin: 0;
+}
+
+.email{
+    width: 430px;
+    height: 45px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Main';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    padding-left: 25px;
+}
+
+.btn {
+    width: 84px;
+    height: 47px;
+    padding: 0;
+    margin-left: -10px;
+    cursor: url(../icons/cursor-pointer.png), pointer;
+}
+
+.input{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+    width: 535px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.ft-m{
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.s1{
+    width: 75px;
+    margin-right: 88px;
+}
+
+.s2{
+    width: 175px;
+}
+
+.s3{    
+    width: 110px;
+    float: right;
+}
+
+.ft-m h2{
+    font-family: 'Main';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #22262A;
+}
+
+.ft-m a{
+    font-family: 'Main';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    display: block;
+    text-decoration: none;
+}
+
+.rights{
+    width: 100%;
+    height: 95px;
+    background: #E7F5F8;
+    float: left;
+    margin-top: 105px;
+}
+
+.rights p{
+    font-family: 'Main';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    text-align: center;
+    margin: 0;
+    margin-top: 35px;
+}
+
+[data-theme="dark"] footer{
+   background: #1111;
+}
+
+[data-theme="dark"] .rights{
+   background: #0f0f0f;
+}
+
+[data-theme="dark"] .email{
+   background: #d1d1d1;
+}
+
+[data-theme="dark"] .subscribe p{
+    color: #4c4c4c;
+}
+
+[data-theme="dark"] .about{
+    color: #4c4c4c;
+}
+
+[data-theme="dark"] .location{
+    color: #4c4c4c;
+}
+
+[data-theme="dark"] .contact p{
+    color: #4c4c4c;
+}
+
+[data-theme="dark"] .ft-m h2{
+    color: #4c4c4c;
+}
+
+[data-theme="dark"] .ft-m a{
+    color: #4c4c4c;
+}
+
+[data-theme="dark"] .rights p{
+    color: #4c4c4c;
+}
+
+[data-theme="dark"] .mail {
+    border-bottom: 1px solid #4c4c4c;
+}
+
+[data-theme="dark"] .target {
+    filter: contrast(0.1);
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .social img {
+    filter: invert(0.7);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1200px){
+    .about, .ft-section1{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    footer{
+        display: none;
+    }
+}

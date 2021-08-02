@@ -1,0 +1,155 @@
+header{
+    padding-top: 20px;
+    width: 100%;
+    height: 80px;
+    background: white;
+    transition: 0.3s;
+    position: fixed;
+    z-index: 1;
+}
+
+[data-theme="dark"] header{
+    background: #121212;
+    transition: 0.3s;
+}
+
+.logo{
+    width: 164px;
+    cursor: url(../icons/cursor-pointer.png), pointer;
+    float: left;
+    transition: 0.3s;
+}
+
+.logo:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ffe0fb;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .logo{
+    filter: contrast(0.1);
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .logo:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff00dd;
+    transition: 0.3s;
+}
+
+nav{
+    float: left;
+    margin-top: 20px;
+}
+
+nav a{
+    font-family: 'Main';
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: rgb(161, 161, 161);
+    transition: 0.3s;
+}
+
+[data-theme="dark"] nav a{
+    color:rgb(160 160 160);
+    transition: 0.3s;
+}
+
+[data-theme="dark"] nav a:hover{
+    color: rgb(240, 240, 240);
+    transition: 0.3s;
+}
+
+.menu{
+    float: right;
+    margin-top: 20px;
+}
+
+.icon{
+    height: 18px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.dark-mode{
+    width: 18px;
+    height: 18px;
+    background: url(../icons/dark-mode-icon.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    transition: 0.3s;
+}
+
+.form-check-input{
+    width: 18px;
+    height: 18px;
+    opacity: 0;
+    cursor: url(../icons/cursor-pointer.png), pointer;
+}
+
+.search{
+    width: 18px;
+    height: 18px;
+    background: url(../icons/search.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    cursor: url(../icons/cursor-pointer.png), pointer;
+}
+
+.heart{
+    width: 18px;
+    height: 18px;
+    background: url(../icons/heart.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    cursor: url(../icons/cursor-pointer.png), pointer;
+}
+
+.cart{
+    width: 18px;
+    height: 18px;
+    background: url(../icons/cart.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    cursor: url(../icons/cursor-pointer.png), pointer;
+}
+
+[data-theme="dark"] .icon{
+    filter: contrast(0.1);
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .icon:hover{
+    filter: contrast(0.8);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1200px){
+    nav a{
+        margin-left: 18px;
+    }
+    .icon {
+        margin-left: 34px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    header{
+        display: none;
+    }
+}
